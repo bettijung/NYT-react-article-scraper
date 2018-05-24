@@ -11,20 +11,19 @@ To create an app for people wanting to search news articles based on specific to
 
 ## Installation
 - Visit the deployed site [here](https://react-nyt-app-2432545.herokuapp.com) for immediate use.
-- Otherwise, *fork* and *clone* the GitHub repo to your local machine.
-- Ensure that you have *Node.js* and *MongoDB* installed on your machine.
-- Retrieve a personal *NYT API key* [here](https://developer.nytimes.com/).
+- Otherwise, **fork** and **clone** the GitHub repo to your local machine.
+- Ensure that you have **Node.js** and **MongoDB** installed on your machine.
+- Retrieve a personal **NYT API key** [here](https://developer.nytimes.com/).
 - Start MongoDB locally by opening a CLI and entering ```mongod```. Leave this CLI window open in the background.
-- Starting at the root of the repo, go to *client/src/utils/nyt/key.js* and on line 1, replace *'YOURAPIKEY'* with your api key.
+- Starting at the root of the repo, go to **client/src/utils/nyt/key.js** and on line 1, replace **'YOURAPIKEY'** with your api key.
 - Open a new CLI. Navigate to the cloned directory. Install the npm dependencies and start the server.
-
     ```yarn install```
     ```cd client```
     ```yarn install```
     ```cd ..```
     ```yarn start```
 
-- NYT Article Scraper runs locally on port 3000. Open your favorite web browser at *localhost:3000*.
+- NYT Article Scraper runs locally on port 3000. Open your favorite web browser at **localhost:3000**.
 
 ## Technologies Used
 - [MongoDB](https://www.mongodb.com/)
